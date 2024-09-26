@@ -1,8 +1,8 @@
 # mamelon-nix
 
-mamelon-nix is simply Mamelon (an amazing Japanese font with rounded characters) packaged for nix.
-Before anyone points out that there is a PR open for this exact font here is the PR in question...by me: [#343995](https://github.com/NixOS/nixpkgs/pull/343995)
-All credit goes to the original creator of Mamelon. I highly reccomend checking out his/her other fonts over at: [moji-waku](https://moji-waku.com/). I might package some of the other ones as well.
+- mamelon-nix is simply Mamelon (an amazing Japanese font with rounded characters) packaged for nix.
+- Before anyone points out that there is a PR open for this exact font here is the PR in question...by me: [#343995](https://github.com/NixOS/nixpkgs/pull/343995)
+- All credit goes to the original creator of Mamelon. I highly reccomend checking out his/her other fonts over at: [moji-waku](https://moji-waku.com/). I might package some of the other ones as well.
 
 #### DISCLAIMER: The version and license I set in package.nix are most likely wrong, if you happen to know the correct version/license please do open a PR or email me.
 
@@ -30,7 +30,7 @@ inputs.mamelon.packages.${pkgs.system}.default
 Declare `Mamelon` as your font wherever you need it (I don't really have to elaborate here...*right?*).
 
 > [!TIP]
-> When calling the font when declared elsewhere **in your nix config** via string interpolation it might be best to add quotes when calling it in something like a waybar configuration as font-config lists the font name wierdly...
+> When calling the font when declared elsewhere *in your nix config* via string interpolation it might be best to add quotes when calling it in something like a waybar configuration as font-config lists the font name wierdly...
 > For example:
 > Suppose you have your font declared like this:
 > ```nix
