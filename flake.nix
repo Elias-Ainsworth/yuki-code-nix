@@ -1,5 +1,3 @@
-# flake.nix
-
 {
   description = "Mamelon Hi-Regular flake";
 
