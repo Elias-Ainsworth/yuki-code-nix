@@ -21,13 +21,7 @@
     in
     {
       packages = forEachSystem (pkgs: rec {
-        mamelon = pkgs.callPackage ./package.nix {
-          #   version =
-          #     if self ? "shortRev" then
-          #       self.shortRev
-          #     else
-          #       nixpkgs.lib.replaceStrings [ "-dirty" ] [ "" ] self.dirtyShortRev;
-        };
+        mamelon = pkgs.callPackage ./package.nix;
         default = mamelon;
       });
     };
