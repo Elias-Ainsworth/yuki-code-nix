@@ -19,7 +19,7 @@
     in
     {
       packages = forEachSystem (pkgs: rec {
-        mamelon = pkgs.callPackage ./package.nix;
+        mamelon = pkgs.callPackage ./package.nix { };
         default = mamelon;
       });
     };
