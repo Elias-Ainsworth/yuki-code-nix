@@ -30,6 +30,6 @@ stdenvNoCC.mkDerivation {
     homepage = "https://moji-waku.com";
     license = lib.licenses.gpl3Plus;
     platforms = lib.platforms.all;
-    maintainers = [ "elias-ainsworth" ];
+    maintainers = [ ];
   };
 }
