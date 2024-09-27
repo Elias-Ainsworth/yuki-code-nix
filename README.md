@@ -62,4 +62,5 @@ Declare `Mamelon` as your font wherever you need it (I don't really have to elab
 > and of course it scares waybar shitless.
 
 ## Credits
-As always my dumbass would not have been able complete this without the helpful people over at Vimjoyer's server...and I basically copied the structure for flake.nix and this README from Grandmaster Iynaix's [focal](https://github.com/iynaix/focal), do check it out it's great.
+- As always my dumbass would not have been able complete this without the helpful people over at Vimjoyer's server...and I basically copied the structure for flake.nix and this README from Grandmaster Iynaix's [focal](https://github.com/iynaix/focal), do check it out it's great.
+- Further thanks to Master [diniamo](https://github.com/diniamo) for helping me fix some extremely stupid errors I made.
