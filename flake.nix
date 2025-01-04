@@ -1,5 +1,5 @@
 {
-  description = "Mamelon Hi-Regular flake";
+  description = "Yuki Code flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
